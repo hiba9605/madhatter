@@ -1,0 +1,371 @@
+*{
+    margin: 0px;
+}
+/* #header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem 5%;
+    background-color: aqua;
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    align-items: center;
+} */
+#logo{
+    text-decoration: none;
+    color: black;
+    width: 302.47px;
+    Height: 29.32px;
+    text-align: center;
+    margin-left: 800px;
+    font-size: 50px;
+    Top: 67.36px;
+    font-weight: bolder;
+
+}
+#check{
+    display: none;
+}
+.icons{
+    display: none;
+}
+.navbar{
+    text-decoration: none;
+    justify-content: space-around;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.list{
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: space-around;
+    font-size: 20px;
+    padding:30px;
+    color: black;
+
+}
+#mainhead{
+    margin-top: 260px;
+    font-size: 50px;
+    Left:131px;
+    Width:829px;
+    margin-left: 400px;
+
+}
+span{
+    font-size: 50px;
+}
+
+
+button{
+    
+    padding: 20px;
+    cursor: pointer;
+}
+#firstimg{
+    width: 500px;
+    margin-left: 1100px;
+    margin-top: -400px;
+    
+}
+.brand{
+    height: 200px;
+    width: 400px;
+    display: flex;
+}
+#mainsecond{
+    display: flex;
+    justify-content: space-around;
+}
+#img1{
+    background-color: blue;
+    height: 400px;
+    width: 591px;
+    
+}
+#img2{
+    /* background-color: blue; */
+    height: 400px;
+    width: 591px;
+    margin-left: -330px;
+}
+
+#secondsection{
+    display: flex;
+    /* margin-left: 200px; */
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#ranges{
+    margin-top: 150px;
+    
+}
+#range1{
+    background-color:  #F6ECE8;
+    width: 511px;
+    height: 647px;
+    margin-left: 100px;
+
+}
+#range2{
+    background-color:  #F6ECE8;
+    width: 511px;
+    height: 647px;
+    margin-top: 180px;
+    margin-left: -400px;
+
+}
+#rangeimg{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#range3{
+    background-color:  #F6ECE8;
+    width: 511px;
+    height: 647px;
+    margin-left: 100px;
+    margin-top: -100px;
+    
+}
+#range4{
+    background-color:  #F6ECE8;
+    width: 511px;
+    height: 647px;
+    margin-left: -400px;
+    margin-top: -20px;
+  
+}
+#rangeimgtwo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#lineone{
+    margin-top: -300px;
+    margin-left: 460px;
+}
+#linetwo{
+    margin-left: 240px;
+}
+#more{
+    margin-top: 80px;
+}
+#quote{
+    margin-top: 100px;
+}
+#quoteimg{
+    margin-top: 90px;
+    text-align: center;
+    margin-left: 550px;
+}
+#newsimg{
+    width: 100%;
+    height: 410px;
+    margin-top: 150px;
+}
+#registerline{
+    margin-left: 500px;
+    margin-top: 150px;
+}
+#email{
+    margin-left: -720px;
+}
+#letterbutton{
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 1250px;
+    margin-top: -200px;
+   
+    
+}
+.footer{
+    background: url("./images/Rectangle\ 14.png");
+    width: 100%;
+    height: 400px;
+}
+#ftone{
+    padding-top: 90px;
+    color: white;
+    /* margin-left: 200px; */
+
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding-top: 90px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+#fttwo{
+    padding-top: 90px;
+}
+#ftthre{
+    padding-top: 90px;
+}
+
+@media(max-width:760px){
+    #logo{
+        margin-left: -5px;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+         background-color:  #F6ECE8;
+        display: none;
+    }
+    .icons{
+        display: flex;
+    }
+    #closeicon{
+        display: none;
+    }
+    #check:checked~.icons #menuicon{
+        display: none;
+    }
+    #check:checked~.icons #closeicon{
+        display: block;
+    }
+ 
+    #firstimg{
+        display: block;
+        margin-left: -80px;
+        width: 400px;
+        margin-top: -600px;
+        /* margin-left: 1100px; */
+        /* margin-top: -400px; */
+        
+    }
+   #mainimg{
+    display: block;
+   }
+   #mainhead{
+    /* display: block; */
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 500px;
+}
+#mainsecond{
+    display: block;
+    margin-top: 100px;
+}
+#secondsection{
+    display: block;
+    font-size: larger;
+    /* margin-left: 50px; */
+}
+#img2{
+    font-size: smaller;
+    margin-left: -3px;
+}
+#ranges{
+    margin-left: -150px;
+}
+#rangeimg{
+    display: block;
+}
+#range1{
+    margin-left: -80px;
+}
+#range2{
+    margin-left: -20px;
+    margin-top: 30px;
+}
+#rangeimgtwo{
+    display: block;
+    margin-top: 150px;
+}
+#range3{
+    margin-left: -80px;
+}
+#range4{
+    margin-left: -20px;
+    margin-top: 30px;
+}
+  #more{
+    display: block;
+    margin-left:-150px;
+  }
+    #line0ne{
+        margin-left: 200px;
+    }
+    #quote{
+        margin-left: -550px;
+        margin-top: -30px;
+        /* width: 100px; */
+    }
+    #quoteimg{
+        width: 400px;
+        /* margin-left: -700px; */
+    }
+    #registerline{
+        margin-left: -30px;
+        width: 450px;
+    }
+    #email{
+        margin-left: -400px;
+        /* margin-top: -60px; */
+    }
+    #news{
+        display: block;
+    }
+    #letterbutton{
+        margin-left: 110px;
+    }
+    #footer{
+        margin-left: -100px;
+    }
+    .link{
+        margin-left: 100px;
+    }
+    #footerimg{
+        display: block;
+    }
+    #ftone{
+        margin-left: px;
+    }
+    .footer{
+        display: grid;
+        height: 700px;
+    }
+    #fttwo{
+        margin-top: -140px;
+    }
+    #ftthre{
+        margin-top: -190px;
+    }
+    .navbar{
+        margin-left: -10px;
+        text-decoration: none;
+        /* justify-content: space-around; */
+        /* margin-left: 600px; */
+        /* margin-top: 50px; */
+        margin-top: -500px;
+        /* display: flex; */
+        display: none;
+    }
+    #check:checked~.navbar{
+        display: block;
+    }
+    .navbar a{
+        display: block;
+        text-align: center;
+        font-size: 1.1rem;
+        margin: 1.5rem 0px;
+    }
+    #lineone{
+        display: none;
+    }
+    #linetwo{
+        display: none;
+    }
+    
+}
